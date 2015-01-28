@@ -1,0 +1,11 @@
+This game is called Space Shooter. It should include three graphical objects, including the space ship, lasers,
+ and aliens. These are animated using sprite sheets and the draw function called multiple times with the
+ setInterval function. Interaction involves a crude bounded box algorithm utilizing the size of the image sprites.
+Lasers do not appear when the space bar is pressed. If the game worked, each alien kill would be worth 
+100 points.
+
+INSTRUCTIONS:
+	The ship can be moved by pressing the arrow keys. The goal is to avoid and shoot the aliens.
+	The ship is supposed to fire lasers when the spacebar is pressed, but it doesn't.
+
+A screenshot can be found in screenshot.png.
