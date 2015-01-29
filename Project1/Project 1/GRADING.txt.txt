@@ -14,4 +14,4 @@ Complexity: Figures have more freedom of movement than they would in a pong game
 
 Documentation: Comments provided throughout code, This document, REPORT.TXT, and README.txt, and screenshot.png
 
-Demo: Project is available at meltonch.github.io/games.html
+Demo: Project is available at meltonch.github.io/Project1/Project%201/game1.html
