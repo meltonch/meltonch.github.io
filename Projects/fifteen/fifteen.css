@@ -1,0 +1,30 @@
+body
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width:60%;
+	font-family: cursive;
+	font-size: 14pt;
+}
+
+#puzzlearea
+{
+	position: relative;
+	margin: inherit;
+	width: 400px;
+	height: 400px;
+}
+
+#puzzlearea > div
+{
+	position: absolute;
+	background-image: url("spacecat.png");
+	float: left;
+	width: 90px;
+	height: 90px;
+	border: 5px solid black;
+	color: white;
+	font-size: 40pt;
+}
+

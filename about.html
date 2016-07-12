@@ -1,41 +1,58 @@
 <!DOCTYPE html>
-<html> 
-<head>
-	<link rel="stylesheet" href="styles.css">
-	<title>The Page: About</title>
-</head>
+<html>
 
-<body>
-	<div id="container">
-		<div id="head">
-			<h1>The Page</h1>
-			<h4>dot com</h4>
-		</div>
+	<head>
 		
-		<div id="navLeft">
-			<a href="index.html">Home</a><br>
-			About<br>
-			<a href="games.html">Games</a><br>
-		</div>
+		<title>Anonymous Waffle: About</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="script.js"></script>
 		
-		<div id="content">
-			<h1>About</h1>
-			<p>My name is Chase Melton, and this is a site I've 
-				created for the purpose of hosting games I create 
-				for CSCI 4070 in the Spring of 2015. This "about" 
-				section will contain all information relevant to 
-				the games, while the games page will only contain 
-				the games themselves for simplicity (who wants to 
-				read blocks of text when there's games to be played?)
-				<br>
-				<br>
-				There's not much around yet, but check back often for 
-				updates and more. </p>
-		</div>
+	</head>
+	
+	<body>
+	
+		<div id="page">
 		
-		<div id="foot">
-			<p> Chase Melton, 2015 </p>
-		</div>
-	</div>
-</body>
+			<div id="container">
+			
+				<div id="header">
+				
+					<h1 class="light">An Anonymous Waffle</h1>
+					
+					<div id="navBar">
+						<a class="navButton" href="index.html"><b>Home</b></a>
+						<a class="navButton" href="about.html"><b>About</b></a>
+						<a class="navButton" href="projects.html"><b>Projects</b></a>
+						<a class="navButton" href="log.html"><b>Log</b></a>
+						<a class="navButton" href="contact.html"><b>Contact</b></a>
+					</div><!--navBar-->
+				
+				</div><!--header-->
+				
+
+				
+				<div id="pageText">
+				
+					<h2 class="pageTitle">About</h1>
+				
+					<p>I'm Chase, and I created Anonymous Waffle as a showcase for things I've done, as well as 
+					a site to host other things (like perhaps a minecraft server, at some point?). I do all kinds of things 
+					with code and technology, from web applications to Java applications, from simple, single-page games to 
+					more complex applications implementing technologies such as JavaFX for UI design and CUDA for parallelization.
+					The site itself is pretty simple. It's written in HTML with CSS styling, and the interactivity is designed with 
+					a few lines of jQuery. I took the background picture myself, and the color design for the site was intended to 
+					fit the image. For now, the site is hosted through GitHub Pages, for which I thank them. If you have any further 
+					questions, comments, or suggestions, please check the contact page for ways in which you can contact me. If you'd 
+					like to view some of the projects I've done, check out the Projects page. If you're interested in changes to the 
+					site and when they're being made, check out the Log page.</p>
+				
+				</div><!--pageText-->
+				
+			</div><!--container-->
+			
+		</div><!--page-->
+		
+	</body>
+	
 </html>

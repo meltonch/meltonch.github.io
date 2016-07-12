@@ -1,0 +1,176 @@
+/*
+ * Color Pallete:
+ *		Blues 1 (from darkest to lightest):
+ *			002525
+ *			003F3F
+ *			055a5a
+ *			004444
+ *			002b2b
+ *		Blues 2:
+ *			021030
+ *			061b4c
+ *			102964
+ *			1f3b79
+ *			37518d
+ *		Greens: 
+ *			003900
+ *			005b00
+ *			077807
+ *			199119
+ *			35a935
+ */
+			
+
+#page
+{
+	font-family: "Century Gothic", CenturyGothic;
+	background: url("trees2.jpg");
+	background-size: 1892px 1000px;
+	background-repeat: no-repeat;
+	min-width: 1887px;
+	color: white;
+}
+
+#container
+{
+
+	height: 1000px;
+
+	position: relative;
+
+}
+
+#header
+{
+	column-count: 2;
+	column-width: 50%;
+	height: 70px;
+	padding: 10px 0px 0px 20px;
+	margin: 0px;
+	width: 1867px;
+	min-width: 1867px;
+	background: #333333;
+	color: #055a5a;
+	z-index: 0;
+}
+
+.light
+{
+	margin: 12px 0px 5px 10px;
+	font-size: 25px;
+}
+
+#navBar
+{
+	float:right;
+	padding: 10px;
+	text-align: center;
+}
+
+.navButton
+{
+	display: inline-block;
+	width: 65px;
+	margin: 0px 5px 5px 5px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #055a5a;
+	color: white;
+	font-size: 15px;
+}
+
+.navButton:hover
+{
+	background-color: #018D8D;
+}
+
+#pageText
+{
+	position: absolute;
+	width: 65%;
+	top: 200px;
+	left: 300px;
+	background: rgba(255, 255, 255, .8);
+	box-shadow: 0px 0px 10px white;
+	color: black;
+	padding: 20px;
+	border-radius: 10px;
+	display: none;
+}
+
+.pageTitle
+{
+	color: #077807;
+}
+
+#quickLinks
+{
+	column-count: 2;
+	column-width: 50%;
+	column-rule: 1px dotted #077807;
+	margin-top: 50px;
+}
+
+.quickLink
+{
+	color: #077807;
+}
+
+.quickLink:hover
+{
+	color: #102964;
+}
+
+.sectionTitle
+{
+	color: #077807;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.content
+{
+	width: 250px;
+	height: 200px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	color: white;
+}
+
+.projectTitle:hover
+{
+	color: #102964;
+	cursor: pointer;
+}
+
+#welcome
+{
+	top: 350px;
+	left: 400px;
+	background-color: #EB0202;
+}
+
+#projects
+{
+	top: 350px;
+	left: 700px;
+	background-color: #018D8D;
+}
+
+#contact
+{
+	top: 600px;
+	left: 400px;
+	background-color: #01BC01;
+}
+
+#log
+{
+	top: 600px;
+	left: 700px;
+	background-color: #EB6B02;
+}
